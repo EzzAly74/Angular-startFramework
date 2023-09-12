@@ -1,0 +1,51 @@
+<head>
+  <title>contact</title>
+</head>
+<div class="parent">
+  <div class="container">
+    <app-custom [customText]="text"></app-custom>
+    <div class="con d-flex flex-column">
+      <div class="name position-relative">
+        <span class="spanName customStyleName"> userName : </span>
+        <input
+          class="w-100"
+          type="text"
+          placeholder="userName"
+          id="userName"
+          (input)="userN()"
+        />
+      </div>
+      <div class="age position-relative">
+        <span class="spanAge customStyleAge"> userAge : </span>
+        <input
+          class="w-100"
+          type="text"
+          placeholder="userAge"
+          id="userAge"
+          (input)="userA()"
+        />
+      </div>
+      <div class="email position-relative">
+        <span class="spanEmail customStyleEmail"> userEmail : </span>
+        <input
+          class="w-100"
+          type="email"
+          placeholder="userEmail"
+          id="userEmail"
+          (input)="userE()"
+        />
+      </div>
+      <div class="pass position-relative">
+        <span class="spanPass customStylePass"> userPassword : </span>
+        <input
+          class="w-100"
+          type="password"
+          placeholder="userPassword"
+          id="userPass"
+          (input)="userP()"
+        />
+      </div>
+      <button class="btn btn-success my-3">Submit</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  background-color: #1a252fff;
+  color: #fff;
+  font-size: 12px;
+}

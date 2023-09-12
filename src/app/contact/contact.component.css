@@ -1,0 +1,56 @@
+.parent {
+  margin-top: 100px;
+}
+app-custom::ng-deep .star::after {
+  background-color: #000;
+}
+app-custom::ng-deep .star::before {
+  background-color: #000;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-block: 25px;
+  font-size: 12px;
+}
+input::placeholder {
+  font-size: 12px;
+}
+.con {
+  width: 60%;
+  margin-inline: auto;
+  margin-block: 30px;
+}
+span {
+  transition: 0.3s ease-in-out;
+  font-size: 12px;
+  color: #1abc9c;
+  position: absolute;
+  padding-left: 4px;
+}
+
+.customStyleName {
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.customStyleAge {
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.customStyleEmail {
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.customStylePass {
+  margin-top: 40px;
+  z-index: -1;
+}
+button {
+  width: 100px;
+}

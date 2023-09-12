@@ -1,0 +1,17 @@
+<body>
+  <div
+    class="bb position-fixed top-50 start-50 translate-middle w-100 h-100 d-flex justify-content-center align-items-center d-none z-3"
+  >
+    <img id="myImage" src="" alt="" />
+  </div>
+
+  <div class="imgContainer position-relative">
+    <img [src]="imageSrc" class="w-100" />
+    <div
+      (click)="test()"
+      class="overlay position-absolute w-100 start-0 bottom-0"
+    >
+      <i class="fa-solid fa-plus"></i>
+    </div>
+  </div>
+</body>

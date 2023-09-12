@@ -1,0 +1,9 @@
+.container {
+  margin-top: 100px;
+}
+app-custom::ng-deep .star::after {
+  background-color: #000;
+}
+app-custom::ng-deep .star::before {
+  background-color: #000;
+}
